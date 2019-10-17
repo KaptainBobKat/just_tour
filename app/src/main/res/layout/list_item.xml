@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ne"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/image_lp"
+        android:layout_width="392dp"
+        android:layout_height="165dp"
+        android:contentDescription="@string/todo" />
+
+    <LinearLayout
+        android:id="@+id/textContainer"
+        android:layout_width="187dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            tools:text="Location:" />
+
+        <TextView
+            android:id="@+id/Schedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            tools:text="Schedule:" />
+
+        <TextView
+            android:id="@+id/Price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            tools:text="Price:" />
+
+        <TextView
+            android:id="@+id/Phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            tools:text="Phone:" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
